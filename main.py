@@ -22,7 +22,7 @@ EXCUSE = (
     "instructions. Unfortunately, I wrote them."
 )
 
-OUTPUT_PATH = "/output/entry.txt"
+OUTPUT_PATH = os.environ.get("MAKEFUN_OUTPUT", "/output/entry.txt")
 MAX_CODE_POINTS = 200
 
 
